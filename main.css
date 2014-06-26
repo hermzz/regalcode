@@ -1,4 +1,9 @@
 body {
+	/*
+		Background pattern by Evan Eckard
+		http://www.dinpattern.com/2009/09/27/old-31/
+	*/
+
 	background: #000 url('pattern.gif') repeat right top;
 	margin: 0;
 	padding: 0;
