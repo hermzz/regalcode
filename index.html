@@ -6,31 +6,40 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.css" />
-		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Parisienne" />
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.css" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Parisienne" />
 		<link rel="stylesheet" href="main.css" />
 	</head>
 	<body>
-		<div class="container">
+		<div class="container" itemscope itemtype="http://schema.org/Organization">
 			<div class="row header">
 				<div class="col-md-12">
-					<h1>Regal Code</h1>
+					<h1 itemprop="name">Regal Code</h1>
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-md-12">
-					<p class="lead">Regal Code is the trading name of Hermann Käser, full-stack developer who specializes in all things backend.</p>
+					<p class="lead" itemprop="founder" itemscope itemtype="schema.org/Person">
+						Regal Code is the trading name of <span itemprop="name">Hermann Käser</span>, <span itemprop="jobTitle">full-stack developer</span> 
+						who specializes in all things backend.
+					</p>
 
-					<p>As a full-stack developer with over 10 years of experience I can create functional, elegant, and future-proof websites.</p>
+					<p>
+						As a full-stack developer with over 10 years of experience I create functional, elegant, and future-proof websites. I build websites
+						that handle hundreds of requests per second, search through gigabytes of data, and still manage to have a 99.99% uptime. Please
+						see my <a href="http://volt.io/cv">CV</a> for more details.
+					</p>
 
-					<p>You can contact me via email at <a href="mailto:hello@regalcode.com">hello@regalcode.com</a></p>
+					<p>Based in Brixton I'm available for onsite work anywhere in <span itemprop="location">London</span> or remotely with the occasional bit of travel.</p>
+
+					<p>You can contact me via email at <a href="mailto:hello@regalcode.com" itemprop="email">hello@regalcode.com</a>.</p>
 				</div>
 			</div>
 
 			<div class="row footer">
 				<div class="col-md-12">
-					<p>Regal Code Ltd, UK registered company #<a href="https://opencorporates.com/companies/gb/9113889">9113889</a></p>
+					<p><span itemprop="legalName">Regal Code Ltd</span>, UK registered company #<a href="https://opencorporates.com/companies/gb/9113889" itemprop="taxID">9113889</a></p>
 				</div>
 			</div>
 		</div>
