@@ -12,15 +12,25 @@ body {
 .container {
 	background: #fff;
 	margin-top: 30px;
-	width: 50em;
+}
+
+.blurb {
+	padding: 20px 20px 10px 20px;
 }
 
 .header, .footer {
 	background-color: #ddd;
-	padding: 5px 0;
+	padding: 5px 10px;
+}
+
+.footer {
+	padding-top: 15px;
 }
 
 h1 {
 	font-family: 'Parisienne', serif;
 	font-size: 4em;
+	margin: 20px 0;
 }
+
+@media (min-width: 700px) { .container { max-width: 700px; } }
