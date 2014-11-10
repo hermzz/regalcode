@@ -1,12 +1,18 @@
 body {
-	/*
-		Background pattern by Evan Eckard
-		http://www.dinpattern.com/2009/09/27/old-31/
-	*/
-
-	background: #000 url('pattern.gif') repeat right top;
 	margin: 0;
 	padding: 0;
+	font-family: Georgia;
+	font-size: 1.5em;
+}
+
+h1 {
+	text-indent: -9999px;
+	background: url(logo.png) no-repeat top;
+	display: block;
+	height: 120px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
 }
 
 a:hover, a:active, a:link, a:visited {
@@ -21,22 +27,15 @@ a:hover, a:active, a:link, a:visited {
 }
 
 .blurb {
-	padding: 20px 20px 10px 20px;
-}
-
-.header, .footer {
-	background-color: #ddd;
-	padding: 5px 10px;
 }
 
 .footer {
-	padding-top: 15px;
 }
 
-h1 {
-	font-family: 'Parisienne', serif;
-	font-size: 4em;
-	margin: 20px 0;
+.footer div p {
+	margin-top: 10px;
+	padding-top: 20px;
+	border-top: 1px solid #ccc;
 }
 
 @media (min-width: 700px) { .container { max-width: 700px; } }
